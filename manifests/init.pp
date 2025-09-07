@@ -1,6 +1,7 @@
 # @summary Configure stock ticker metrics
 #
 # @param tickers lists the stock tickers to track
+# @param token sets the FinnHub API token
 # @param version sets the version of stock-exporter to install
 # @param binfile sets the install path for the stock-exporter binary
 # @param prometheus_server_ip sets the IP range to allow for prometheus connections
@@ -8,6 +9,7 @@
 # @param interval sets how frequently to poll in seconds
 class stocks (
   Array[String] $tickers,
+  String $token,
   String $version = 'v0.0.2',
   String $binfile = '/usr/local/bin/stock-exporter',
   String $prometheus_server_ip = '0.0.0.0/0',
