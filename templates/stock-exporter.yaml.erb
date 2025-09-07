@@ -1,0 +1,6 @@
+port: <%= @port %>
+interval: <%= @interval %>
+tickers:
+<% @tickers.each do |symbol| -%>
+  - <%= symbol %>
+<% end -%>

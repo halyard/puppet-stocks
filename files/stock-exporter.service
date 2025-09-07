@@ -1,0 +1,9 @@
+[Unit]
+Description=Expose stock ticker data as metrics
+
+[Service]
+ExecStart=/usr/local/bin/stock-exporter serve /usr/local/etc/stock-exporter.yaml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

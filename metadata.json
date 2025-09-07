@@ -1,0 +1,16 @@
+{
+  "name": "halyard-stocks",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure stock ticker metrics",
+  "source": "https://github.com/halyard/puppet-stocks",
+  "project_page": "https://github.com/halyard/puppet-stocks",
+  "issues_url": "https://github.com/halyard/puppet-stocks/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+
+  ]
+}
