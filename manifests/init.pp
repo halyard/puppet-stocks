@@ -10,7 +10,7 @@
 class stocks (
   Array[String] $tickers,
   String $token,
-  String $version = 'v0.0.2',
+  String $version = 'v0.0.4',
   String $binfile = '/usr/local/bin/stock-exporter',
   String $prometheus_server_ip = '0.0.0.0/0',
   Integer $port = 9092,
